@@ -1,70 +1,130 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { StyleSheet } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { Card, Chip, IconButton, MD3Colors, Searchbar, TouchableRipple } from 'react-native-paper';
+import { useState } from 'react';
+import { Colors } from '@/constants/Colors';
+import { useColorScheme } from 'react-native';
 
-export default function HomeScreen() {
+export default function TabTwoScreen() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const colorScheme = useColorScheme()
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
+      // headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
+      // headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}
+    >
+      <Searchbar
+        placeholder="Search"
+        onChangeText={setSearchQuery}
+        value={searchQuery}
+      />
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <ThemedText type="subtitle">Leader Board</ThemedText>
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
+      <Card>
+        <Card.Cover source={ require('@/assets/images/banners/hero.jpg') } />
+      </Card>
+      <ThemedView style={{ justifyContent: 'center', ...styles.menuSection }}>
+        <IconButton
+          icon="camera"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
+        <IconButton
+          icon="bicycle"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
+        <IconButton
+          icon="cart"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
+        <IconButton
+          icon="flask"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
+      <ThemedView style={{ justifyContent: 'center', ...styles.menuSection }}>
+        <IconButton
+          icon="heart"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
+        <IconButton
+          icon="thermometer"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
+        <IconButton
+          icon="nutrition"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
+        <IconButton
+          icon="beer"
+          iconColor={'white'}
+          size={40}
+          containerColor={Colors[colorScheme ?? 'light'].tint}
+          style={styles.menuButton}
+          onPress={() => console.log('Pressed')}
+        />
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
+      <Card>
+        <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
+      </Card>
+      <Card>
+        <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
+      </Card>
     </ParallaxScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
+  headerImage: {
+    color: '#808080',
+    bottom: -90,
+    left: -35,
     position: 'absolute',
   },
+  titleContainer: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  menuSection: {
+    flexDirection: 'row',
+    flex: 4, // the number of columns you want to devide the screen into
+    marginHorizontal: "auto",
+    width: '100%',
+    gap: 12,
+  },
+  menuButton: {
+    // flex: 1
+  }
 });

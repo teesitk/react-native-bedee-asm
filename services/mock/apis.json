@@ -1,0 +1,206 @@
+{
+    "data": {
+        "questions": [
+            {
+                "title": "Where can I find out how much of each vitamin and mineral I need?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "How can I get more information about a particular dietary supplement such as whether it is safe and effective?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Where can I find information about the use of dietary supplements for a particular health condition or disease?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "What does the Supplement Facts label on a dietary supplement tell me?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "What is the difference between the RDA and DV for a vitamin or mineral?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "What are the upper limits for vitamins and minerals?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Where can I report a complaint about a particular dietary supplement or find contact information for a supplement company?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Where can I find free, accurate information about vitamins, minerals, herbs, and other dietary supplements?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Where can I find published scientific studies about dietary supplements?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "I try to eat right, but sometimes I don’t succeed. How do I know if I should take a multivitamin supplement?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "I am overwhelmed by the multivitamin choices at my store. Which product should I buy?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Do multivitamins have any safety concerns?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "I know that carrots are healthy and have lots of vitamin A. But I’ve also heard that too much vitamin A can be dangerous, so do I need to limit how many carrots I eat?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "I eat a lot of carrots and I know that they have beta-carotene. I have read that beta-carotene increases your risk of lung cancer. Is that true?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Is it common to need vitamin B12 injections?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "My supplement has 500 mcg of vitamin B12, and the label says that it provides 20830% of the DV. Is that correct? It seems like too much.",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "I know that dairy products like milk, yogurt, and cheese contain vitamin B12, but why isn’t it listed on the Nutrition Facts labels?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Can vitamin C prevent colds or make them shorter?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "Should I take a vitamin D supplement?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            },
+            {
+                "title": "What is the difference between vitamin D2 and vitamin D3?",
+                "avatar": "https://mui.com/static/images/avatar/2.jpg",
+                "answer": [
+                    "answer one",
+                    "answer two",
+                    "answer three",
+                    "answer four"
+                ]
+            }
+        ]
+    }
+}
